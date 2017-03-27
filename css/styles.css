@@ -1,0 +1,100 @@
+ html, body {
+ 	min-width: 460px;
+ 	overflow-x: hidden;
+ 	font-family: 'Arial', sans-serif;
+ 	height: 100%;
+ }
+
+ .reg-page-bg {
+ background: url('../img/bg.jpg') no-repeat center;
+ background-size: cover;
+ }
+
+.reg-page {
+border-radius: 4px;
+background-color:  #ffffff;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+width: 460px;
+min-height: 440px;
+padding: 35px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);	
+}
+
+.reg-header-main {
+color:  #1b1c1d;
+font-size: 24px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+margin-bottom: 15px;
+}
+
+p {
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+margin-bottom: 35px;	
+color:  #797b7f
+}
+
+.reg-header-text {
+font-size: 13px;	
+}
+
+a {
+	text-decoration: none;
+	color: #e22a6c;
+}
+
+.reg-form-email,
+.reg-form-pass,
+.reg-form-lastname,
+.reg-form-name {
+border-radius: 4px;
+background-color:  #f0f0f0;
+padding: 10px;
+border:none;
+color:  #797b7f;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+margin-bottom: 15px;
+}
+
+.reg-form-name,
+.reg-form-lastname {
+	width: 43%;
+}
+
+.reg-form-name {
+ margin-right: 10px;
+} 
+
+.reg-form-email,
+.reg-form-pass {
+	width: 95%;
+}
+
+.reg-form-submit {
+background-color:  #ea355a;
+box-shadow: 0px 3px 0px 0px #bd1962;
+width: 100%;
+height: 50px;
+border-radius: 5px;
+color:  #ffffff;
+font-size: 18px;
+font-weight: 700;
+line-height: 20px;
+text-align: center;
+border: none;
+cursor: pointer;
+}
+
+.reg-form-tc {
+	margin-top: 20px;
+	font-size: 12px;
+}
